@@ -555,9 +555,21 @@ const globalStyles = `
 
   @media (max-width: 768px) {
     .nav-links { display: none; }
-    .about-grid { grid-template-columns: 1fr; }
-    .hero-title { font-size: 3rem; }
-    .hero-subtitle { font-size: 2rem; }
+    .about-grid { grid-template-columns: 1fr; gap: 40px; }
+    .hero-title { font-size: 2rem; }
+    .hero-subtitle { font-size: 1.3rem; }
+    .hero-desc { font-size: 1rem; margin-bottom: 25px; }
+    .preloader-bg-logo { height: 25vh; }
+    .preloader-video { width: 150px; height: 150px; border-width: 2px; }
+    .map-embed { width: 100%; height: 400px; margin-top: 20px; }
+    .insta-container { flex-direction: column; padding: 0; }
+    .insta-embed { width: 100%; display: flex; justify-content: center; }
+    .insta-embed iframe { width: 100% !important; max-width: 320px; height: 500px !important; }
+    .footer-logo { height: 80px; }
+    .section { padding: 40px 15px; }
+    .section-title { font-size: 1.8rem; }
+    .section-subtitle { font-size: 1.2rem; }
+    .btn-primary { padding: 10px 20px; font-size: 0.9rem; }
   }
 `;
 
