@@ -6,6 +6,9 @@ import heroBgVideo2 from './src/assets/hero-video-2.mp4';
 import heroBgVideo3 from './src/assets/hero-video-3.mp4';
 import crispyPrawnsImg from './src/assets/crispy-prawns.jpg';
 import muttonBiryaniImg from './src/assets/mutton-biryani.jpg';
+import strawberryShakeImg from './src/assets/strawberry-shake.png';
+import tandooriPlatterImg from './src/assets/tandoori-platter.png';
+import eggBiryaniImg from './src/assets/egg-biryani.png';
 import preloaderVideo from './src/assets/preloader.mp4';
 
 // --- GLOBAL STYLES ---
@@ -769,7 +772,7 @@ const DoraRestaurant = () => {
           {/* CUSTOMER FAVORITES (Google Maps) */}
           <div className="menu-card">
             <div style={{overflow: 'hidden', width: '100%', height: '220px'}}>
-              <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepK1bQ3TSdCRNg_Cgzw5iVlVImolQhqe8iJfZ61xfUbJiTjgbF0te0d8cqh_kSXXMLDmu3vFLu6aW9StXg71jg5u5plVzNW5ZH3GzHs_EF8EAsU4M2MZnDqelPpn0-utlz4ee0L2f_ZS6bf=s1024-v1" alt="Strawberry Vanilla Dream Shake" className="menu-card-img" />
+              <img src={strawberryShakeImg} alt="Strawberry Vanilla Dream Shake" className="menu-card-img" />
             </div>
             <div className="menu-card-content">
               <h3>Strawberry Vanilla Dream</h3>
@@ -779,7 +782,7 @@ const DoraRestaurant = () => {
 
           <div className="menu-card">
             <div style={{overflow: 'hidden', width: '100%', height: '220px'}}>
-              <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerXoEC_Onm5qENjd8TvGtGYBqcy_tnwQZLL0pgTIVxV3gIb2vWLt-WARvjRkW6bH0-AXTIlo0WE1D6s4L5Fj-XDcSQmTuplMlib9HK5SBorP4lknVaBVF-rJQxZfxK_MKLWDQhj=s1024-v1" alt="Golden Spiced Tandoori Chicken Platter" className="menu-card-img" />
+              <img src={tandooriPlatterImg} alt="Golden Spiced Tandoori Chicken Platter" className="menu-card-img" />
             </div>
             <div className="menu-card-content">
               <h3>Golden Spiced Tandoori</h3>
@@ -789,7 +792,7 @@ const DoraRestaurant = () => {
 
           <div className="menu-card">
             <div style={{overflow: 'hidden', width: '100%', height: '220px'}}>
-              <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepzYWUOJmy9As-TXDmiIvclSplUuKhxgEuMIXu0u6hBPZEuJunSFRj9WcCobc1rYj7r0J5GqDoLNkD88y-JKRFRv5uote3c8H12XFA8M92cXeQUwjeJgs5kuii19xQZX0PVG8bs=s1024-v1" alt="Royal Egg Biryani Delight" className="menu-card-img" />
+              <img src={eggBiryaniImg} alt="Royal Egg Biryani Delight" className="menu-card-img" />
             </div>
             <div className="menu-card-content">
               <h3>Royal Egg Biryani</h3>
