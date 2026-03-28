@@ -84,7 +84,7 @@ const globalStyles = `
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 70vh;
+    height: 50vh;
     opacity: 1;
     z-index: 1;
     pointer-events: none;
@@ -92,8 +92,8 @@ const globalStyles = `
   }
 
   .preloader-video {
-    width: 325px;
-    height: 325px;
+    width: 225px;
+    height: 225px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0 50px rgba(245, 158, 11, 0.4);
@@ -560,7 +560,7 @@ const globalStyles = `
     .hero-subtitle { font-size: 1.3rem; }
     .hero-desc { font-size: 1rem; margin-bottom: 25px; }
     .preloader-bg-logo { height: 25vh; }
-    .preloader-video { width: 150px; height: 150px; border-width: 2px; }
+    .preloader-video { width: 120px; height: 120px; border-width: 2px; }
     .map-embed { width: 100%; height: 400px; margin-top: 20px; }
     .insta-container { flex-direction: column; padding: 0; }
     .insta-embed { width: 100%; display: flex; justify-content: center; }
